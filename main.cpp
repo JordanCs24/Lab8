@@ -37,7 +37,7 @@ int main()
   // of one of objects you have instantiated above
 
   for (auto it : shapeVect){
-    cout << "Area of " << it->printName() << "is: "<< it->getArea() << endl;  
+    cout << "Area of " << it->printName(e) << "is: "<< it->getArea() << endl;  
   }
   return 0;
 }

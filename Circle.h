@@ -9,6 +9,7 @@ Description: Circle header file that holds the class Circle and the function dec
 #define CIRCLE_H_
 
 #include "Shape.h"
+#include "math.h"
 #include <string>
 using namespace std;
 class Circle : public Shape{
@@ -20,8 +21,6 @@ public:
     Circle(double radius){
         this->radius = radius;
     }
-    bool setRadius(double r);
-    double getRadius();
-    virtual double getArea();
+    double getArea();
 };
 #endif

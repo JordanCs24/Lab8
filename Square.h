@@ -9,7 +9,7 @@ Description: Square header file that holds class Square and the different functi
 #define SQUARE_H_
 
 #include "Shape.h"
-
+#include "math.h"
 class Square : public Shape{
     private:
         double side;
