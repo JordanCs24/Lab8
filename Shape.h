@@ -1,3 +1,10 @@
+/*
+Name: Jordan Sowell, Diego Masella
+Date: 4/6/2025
+Section: CPSC 1021
+Time: 2 minutes
+Description: Shape header file that holds the pure abstract base class called shape
+*/
 #ifndef SHAPE_H_
 #define SHAPE_H_
 

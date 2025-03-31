@@ -1,3 +1,7 @@
+#Names: Jordan Sowell and Diego Masella
+#Date: 4/6/22025
+#Section: CPSC 1021
+#Description: The Makefile
 OPTIONS = -Wall
 PROGRAM = main.out
 

@@ -1,3 +1,10 @@
+/*
+Name: Jordan Sowell, Diego Masella
+Date: 4/6/2025
+Section: CPSC 1021
+Time: 2 minutes
+Description: Rectangle header file that holds the length and width variables. It also holds the functions declarations  
+*/
 #ifndef RECTANGLE_H_
 #define RECTANGLE_H_
 

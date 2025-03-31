@@ -2,7 +2,7 @@
 Names: Jordan Sowell, Diego Masella
 Section: CPSC 1021
 Date: 4/6/2025
-Time: 10 minutes
+Time: 20 minutes
 Description: a program that uses (runtime) polymorphism to print
 the name and area of each shape by calling the respective functions from the base class.
 */
@@ -35,7 +35,7 @@ int main()
   // make a vector 'vector<Type>shapeVect {element0, element1, element2, element3}'
   // where 'Type' is a pointer to class Shape and each element is the memory address
   // of one of objects you have instantiated above
-  
+
   for (auto it : shapeVect){
     cout << "Area of " << it->printName() << "is: "<< it->getArea() << endl;  
   }
