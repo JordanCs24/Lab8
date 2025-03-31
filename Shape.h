@@ -2,7 +2,6 @@
 #define SHAPE_H_
 
 #include <string>
-using namespace std;
 class Shape
 {
 private:
@@ -10,15 +9,12 @@ private:
 public:
   Shape() = default;
   Shape(std::string name) : name(name) {};
-  virtual string printName()final{
-    return name;
-  };
-  virtual int getArea() const = 0;
-
   // implement printName() and tag it as 'final'
   // to prevent derived-classes from overriding it
-
-  // implement getArea() as an abstract function
+  virtual std::string printName()final{
+    return name;
+  };
+  virtual double getArea() = 0; // implement getArea() as an abstract function
 
 };
 

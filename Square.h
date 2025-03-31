@@ -3,8 +3,15 @@
 
 #include "Shape.h"
 
-class Square // inherit publically from Shape
-{
+class Square : public Shape{
+    private:
+        double side;
+    public:
+        Square() : side(0){};
+        Square(double side){
+            this->side = side;
+        }
+        double getArea();
 };
 
 #endif

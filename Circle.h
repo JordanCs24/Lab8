@@ -4,7 +4,7 @@
 #include "Shape.h"
 #include <string>
 using namespace std;
-class Circle : Shape{
+class Circle : public Shape{
 private:
     double radius;
     double const PI = 3.14;
@@ -15,6 +15,6 @@ public:
     }
     bool setRadius(double r);
     double getRadius();
-    double getArea();
+    virtual double getArea();
 };
 #endif
