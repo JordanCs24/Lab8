@@ -10,7 +10,9 @@ private:
 public:
   Shape() = default;
   Shape(std::string name) : name(name) {};
-  virtual string printName()final;
+  virtual string printName()final{
+    return name;
+  };
   virtual int getArea() const = 0;
 
   // implement printName() and tag it as 'final'
